@@ -1,4 +1,3 @@
-
 body {
     font-size: 1.5rem;
     background-color: var(--main-background-color);
@@ -38,9 +37,9 @@ body {
     display: flex;
     flex-direction: column;
     height: 60%;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
 }
+
 h1 {
     font-family: 'Inter';
     color: var(--heading-color);
@@ -58,8 +57,7 @@ strong {
     font-family: 'Inter';
     line-height: 2.4rem;
     width: 90%;
-    margin-bottom: 2.2rem;
-    
+    margin-bottom: 2.2rem; 
 }
 
 .stats {
@@ -68,9 +66,7 @@ strong {
     width:80%; 
     font-family: 'Inter';
     font-size: 2.3rem;
-    font-weight: 700;
-     
-       
+    font-weight: 700;      
 }
 
 .stats span:last-child{
@@ -83,8 +79,6 @@ strong {
     flex-direction: column;
     line-height: 3rem;
 }
-
-
 
 .card-img {
     width: 100%;
@@ -102,5 +96,3 @@ img {
     mix-blend-mode: multiply; 
     opacity: 0.75;
 }
-
-
