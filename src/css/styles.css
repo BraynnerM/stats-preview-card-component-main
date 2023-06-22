@@ -1,0 +1,117 @@
+
+body {
+    font-size: 1.5rem;
+    background-color: var(--main-background-color);
+    max-width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 111rem;
+    height: 44.5rem; 
+    border: 0 solid;
+    border-radius: 0.6rem;
+    background-color: var(--card-background-color);   
+}
+
+.card-text {    
+    color: var(--paragraph-color);
+    width: 100%;
+    height: 100%;    
+    flex-basis: 51.5%;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly;
+    padding: 2rem 7rem; 
+    margin-bottom: 1rem;      
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-around;
+    
+}
+h1 {
+    font-family: 'Inter';
+    color: var(--heading-color);
+    font-size: 3.65rem;
+}
+
+strong {
+    font-family: 'Inter';
+    color: var(--accent-color);
+}
+
+.paragraph {
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-family: 'Inter';
+    line-height: 2.4rem;
+    width: 90%;
+    margin-bottom: 2.2rem;
+    
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    gap: .8rem;    
+}
+
+.stats-numbers {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats-type {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;  
+    flex-basis: 48.5%; 
+    background-color: var(--accent-color);
+    border-radius: 0 0.6rem 0.6rem 0;                 
+}
+
+img {
+    height: 100%;
+    width: 100%;    
+    border: 0 solid;
+    border-radius: 0 0.6rem 0.6rem 0;
+    mix-blend-mode: multiply; 
+    opacity: 0.75;
+}
+
+.stats-numbers {
+    font-size: 2.4rem;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.stats-type {
+    font-size: 1.2rem;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.stats-type span:last-child {
+    padding-right: 0.5rem;
+}
