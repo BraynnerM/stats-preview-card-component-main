@@ -1,37 +1,24 @@
-@media (max-width:375px) {
-    .container {
+@media (max-width:1120px) {
+    .card {
+        flex-direction: column-reverse;
         width: 33rem;
+        height: 78rem;
     }
 
-    .info {
-        padding: 0rem 2.6rem;
+    .card-text {
+        height: 100%;
+        padding: 0;
+        flex-basis: 75%;
+        text-align: center; 
+        
+    }
+    .card-img {
+        height: 100%;
+        flex-basis: 25%; 
+                    
+
     }
 
-    #description {
-        font-size: 1.5rem;
-        text-align: center;
-        letter-spacing: 0.06rem;
-        line-height: 2.6rem;
-    }
-
-    #plan {
-        font-size: 1.4rem;
-    }
-
-    #price {        
-        font-weight: 500;
-        font-size: 1.4rem;
-    }
-
-    #change {
-        font-size: 1.3rem;
-    }
-    .payment-btn {
-        height: 5rem;
-        font-size: 1.5rem;
-    }
-
-    #cancel {
-        font-size: 1.5rem;
-    }
+   
 }
+    
