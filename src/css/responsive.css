@@ -48,5 +48,9 @@
         flex: 3;
         height: 31%;
     }
+
+    img {
+        border-radius: 0.6rem 0.6rem 0 0;
+    }
 }
     
